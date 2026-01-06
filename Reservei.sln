@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservei.Api", "Reservei.Api\Reservei.Api.csproj", "{CF7E739E-7E12-4FFC-B811-5151CA281335}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F7E0935-6C05-45D8-9EBC-2124D20BF462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservei.Core", "Reservei.Core\Reservei.Core.csproj", "{40FDDEC3-658F-4D17-9DBE-BB4289F77002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservei.Infra", "Reservei.Infra\Reservei.Infra.csproj", "{85669AF2-323C-44FF-89A1-4C6900A4BDC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{CF7E739E-7E12-4FFC-B811-5151CA281335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF7E739E-7E12-4FFC-B811-5151CA281335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF7E739E-7E12-4FFC-B811-5151CA281335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FDDEC3-658F-4D17-9DBE-BB4289F77002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FDDEC3-658F-4D17-9DBE-BB4289F77002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FDDEC3-658F-4D17-9DBE-BB4289F77002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FDDEC3-658F-4D17-9DBE-BB4289F77002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85669AF2-323C-44FF-89A1-4C6900A4BDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85669AF2-323C-44FF-89A1-4C6900A4BDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85669AF2-323C-44FF-89A1-4C6900A4BDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85669AF2-323C-44FF-89A1-4C6900A4BDC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
