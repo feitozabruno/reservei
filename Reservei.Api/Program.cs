@@ -44,11 +44,9 @@ var app = builder.Build();
 // ==========================================================
 
 // Se estiver em modo de desenvolvimento, ativa o Swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment()) {}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
